@@ -39,7 +39,25 @@ This folder contains my implementations of various sorting algorithms in Java. I
    java SelectionSort
    ```
 
+## Insertion Sort
+
+### Implementation (`InsertionSort.java`):
+- The `InsertionSort` class provides a static method `insertion` for sorting an integer array using the Insertion Sort algorithm.
+- The algorithm builds a sorted portion of the array by repeatedly taking elements from the unsorted part and inserting them into their correct position in the sorted part.
+- The main method demonstrates the usage of the Insertion Sort algorithm on two arrays: `age` and `salaries`.
+- The sorted arrays are then printed using the `Arrays.toString` method.
+
+### Usage:
+1. Compile the `InsertionSort.java` file.
+   ```bash
+   javac InsertionSort.java
+   ```
+2. Run the compiled program.
+   ```bash
+   java InsertionSort
+   ```
+
 ## Future Additions
-Common sorting algorithms include Insertion Sort, Merge Sort, Quick Sort, and Heap Sort. Each algorithm provides a unique approach to sorting and I would understand their differences to deepen my understanding of algorithmic efficiency and implement them.
+Common sorting algorithms include Merge Sort, Quick Sort, and Heap Sort. Each algorithm provides a unique approach to sorting and I would understand their differences to deepen my understanding of algorithmic efficiency and implement them.
 
 Feel free to explore!
